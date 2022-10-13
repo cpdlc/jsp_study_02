@@ -30,13 +30,15 @@
 				</tr>
 				
 				<tr>
-					<td></td>
-					<td></td>
+					<td>request</td>
+					<td>html 폼 요소의 선택값등 사용자 입력 정보를 읽으려고 사용한다.</td>
 				</tr>
 				
 				<tr>
-					<td></td>
-					<td></td>
+					<td>response</td>
+					<td>실행결과를 브라우저로 되돌려 줄 때 사용하는 내장객체이다.<br/>
+					가장 많이 사용되는 메서드로 sendRedirect()이다.<br/>
+					형식 : <span style="color:red">response.sendRedirect("이동할 페이지")</span></td>
 				</tr>
 				
 				<tr>
