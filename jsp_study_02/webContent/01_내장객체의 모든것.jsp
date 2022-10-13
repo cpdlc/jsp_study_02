@@ -42,8 +42,8 @@
 				</tr>
 				
 				<tr>
-					<td></td>
-					<td></td>
+					<td>application</td>
+					<td>웹 서버의 애플리케이션 처리와 관련된 정보를 참조하려고 할 때 사용</td>
 				</tr>
 				
 				<tr>
