@@ -54,6 +54,8 @@ nav ul{
 	overflow:auto;
 }
 
+
+
 nav ul li{
 	width:20%;
 	box-sizing: border-box;
@@ -66,7 +68,10 @@ nav ul li{
 nav ul li a{
 	display: block;
 	padding: 10px;
+	border-bottom:5px solid transparent;
+	transition:0.5s;
 }
+nav ul li a:hover{border-bottom:5px solid #123456;}
 
 /*section 1*/
 .contentWrap{}
@@ -81,3 +86,39 @@ table,td,th{
 }
 table{width:100%;}
 th{background: #ccc;}
+
+/*form 영역 스타일*/
+.formWrap th{text-align: right;}
+.formWrap input[type="text"]
+,.formWrap input[type="password"]{
+	border:none;
+	outline:none;
+}
+
+.formWrap .btnWrap{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.btnWrap input[type="submit"],
+.btnWrap input[type="reset"]{
+	background: skyblue;
+	border:1px solid skyblue;
+	outline:none;
+	padding: 10px 30px;
+	border-radius: 20px;
+	font-weight:bold;
+	color:white;
+	transition:0.5s;
+}
+
+.btnWrap input[type="submit"]:hover,
+.btnWrap input[type="reset"]:hover{
+	color:skyblue;
+	background: white;
+}
+.buttonWrap{border:1px solid red;}
+
+
+
+
